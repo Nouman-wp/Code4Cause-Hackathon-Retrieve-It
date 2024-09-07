@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    animation: fadeIn 2s; /* add animation to header */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hero {
+    grid-column: 1 / -1;
+    background-image: linear-gradient(to bottom, #333, #444);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    animation: slideIn 2s; /* add animation to hero section */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    animation: bounceIn 2s; /* add animation to hero title */
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s; /* add animation to hero paragraph */
+}
+
+.hero button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 2s; /* add animation to hero button */
+}
+
+.finder-form {
+    animation: fadeIn 2s; /* add animation to form section */
+}
+
+.finder-response {
+    animation: fadeIn 2s; /* add animation to response section */
+}
+
+.finder-tips {
+    animation: fadeIn 2s; /* add animation to tips section */
+}
+
+footer {
+    animation: slideIn 2s; /* add animation to footer */
+}
+
+/* animation keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0f0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Emerald Theme Colors */
+.bg-emerald {
+    background-color: #0a533f !important;
+}
+
+.btn-emerald {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s;
+}
+
+.btn-emerald:hover {
+    background-color: #27ae60;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1606760227055-1a9e6f3fa98a') no-repeat center center/cover;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2ecc71;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    color: #b2f7d6;
+}
+
+.hero-section .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #2ecc71 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #2ecc71 !important;
+}
+
+/* Features Section */
+.icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #2ecc71;
+}
+
+h2 {
+    font-weight: 600;
+    color: #2ecc71;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-weight: 600;
+    color: #b2f7d6;
+}
+
+.container .row .col-md-4 {
+    padding: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #0a533f;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: #b2f7d6;
+}
+
+.footer ul li a:hover {
+    color: #2ecc71;
+}
