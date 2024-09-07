@@ -105,3 +105,24 @@ body {
 .footer ul li a:hover {
     color: #2ecc71;
 }
+
+#navimg{
+    vertical-align: middle;
+    
+    
+}
+a.navbar-brand{
+    position: relative;
+ vertical-align: middle;
+}
+
+.container-fluid{
+    box-shadow: 3px 2px 9px black;
+}
+
+.footer{
+    box-shadow: 3px 5px 100px rgb(73, 147, 62);
+}
+#about{
+margin-top: 250px;
+}
