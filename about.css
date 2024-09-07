@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0f0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ensure there's no horizontal scroll */
+}
+
+/* About Section */
+#about {
+    padding: 80px 20px;
+    margin-top: 150px;
+    background-color: #0a533f;
+    border-radius: 10px;
+    box-shadow: 3px 5px 50px rgba(42, 82, 52, 0.8);
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2ecc71;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #b2f7d6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #about {
+        padding: 60px 15px;
+        margin-top: 100px;
+    }
+
+    #about h2 {
+        font-size: 2.5rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+}
