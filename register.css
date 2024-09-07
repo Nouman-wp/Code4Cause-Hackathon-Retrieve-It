@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a0f0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Sign Up Section */
+#signup {
+    background-color: #0a533f;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 50px rgba(42, 82, 52, 0.8);
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+#signup h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2ecc71;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.form-label {
+    font-size: 1.2rem;
+    color: #b2f7d6;
+}
+
+.form-control {
+    background-color: #0a0f0d;
+    border: 1px solid #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    background-color: #0a0f0d;
+    border-color: #2ecc71;
+    box-shadow: 0 0 5px #2ecc71;
+}
+
+.btn-emerald {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+.btn-emerald:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+p a {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #b2f7d6;
+    text-decoration: underline;
+}
