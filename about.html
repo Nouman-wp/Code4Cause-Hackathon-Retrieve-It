@@ -1,1 +1,126 @@
-contents
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About us</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-emerald">
+      <div class="container-fluid">
+          <div><img src="./Screenshot_2024-09-07_202419-removebg-preview (1).png" alt="logo here" height="60" id="navimg"></div>
+          <a class="navbar-brand" href="index.html">Retrieve It</a>
+          <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="search Found Items..." maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="features.html">Redeem</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="register.html">Register Item</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="claim.html">Claim Item</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <section id="signup" class="container my-5">
+     <h2 class="text-center">About Retrieve It</h2>
+     <div>
+       <h3 id="h3-abt">
+           Retrieve It is a decentralized platform designed to help people register found items and search for lost
+           belongings across the globe. Using blockchain technology, we ensure transparency and security in item
+           registration, claiming, and rewarding. The system is built to foster community collaboration and improve
+           the chances of recovering lost items.
+       </h3>
+     </div>
+       <!-- Benefits Section -->
+       <div class="benefits-container mt-5">
+         <h2 class="text-center ">Benefits</h2>
+         <ul class="list-group">
+             <li class="list-group-item">
+                 <strong>Incentive-Driven Participation:</strong> The cryptocurrency rewards system motivates users to actively register found items and return them, increasing the platform’s effectiveness.
+             </li>
+             <li class="list-group-item">
+                 <strong>Enhanced Privacy & Security:</strong> Using decentralized blockchain technology, "Retrieve It" ensures that user data and transactions are securely handled without the risk of tampering or unauthorized access.
+             </li>
+             <li class="list-group-item">
+                 <strong>Community Collaboration:</strong> By incentivizing finders, "Retrieve It" fosters a collaborative environment where people are encouraged to help one another, turning the process of returning lost items into a more community-driven effort.
+             </li>
+         </ul>
+      </div>
+ 
+   </section>
+ 
+
+     <!-- Added Feature Stats Section -->
+     <div class="box-container d-flex justify-content-around my-5">
+        <div class="box text-center">
+           <i class="fas fa-solid fa-magnifying-glass fa-3x text-emerald"></i>
+           <div>
+              <h3>10k+</h3>
+              <p>Items found and Returned</p>
+           </div>
+        </div>
+
+        <div class="box text-center">
+           <i class="fas fa-solid fa-user-group fa-3x text-emerald"></i>
+           <div>
+              <h3>+40k</h3>
+              <p>&nbsp&nbsp&nbsp Registered Finders &nbsp&nbsp&nbsp</p>
+           </div>
+        </div>
+
+        <div class="box text-center">
+           <i class="fa-solid fa-location-dot fa-3x text-emerald"></i>
+           <div>
+              <h3>200+</h3>
+              <p>&nbsp&nbsp&nbsp&nbsp Available Cities &nbsp &nbsp&nbsp&nbsp</p>
+           </div>
+        </div>
+
+        <div class="box text-center">
+           <i class="fas fa-regular fa-face-smile fa-3x text-emerald"></i>
+           <div>
+              <h3>95%+</h3>
+              <p>&nbsp&nbsp&nbspSatisfied Customer &nbsp&nbsp&nbsp</p>
+           </div>
+        </div>
+     </div>
+  </section>
+
+  <footer class="footer">
+     <div class="container">
+         <p>&copy; 2024 Retrieve It - Decentralized Lost & Found</p>
+         <ul class="list-inline">
+             <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+             <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+             <li class="list-inline-item"><a href="#">Contact Us</a></li>
+         </ul>
+     </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
