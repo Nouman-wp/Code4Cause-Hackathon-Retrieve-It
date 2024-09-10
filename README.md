@@ -1,4 +1,4 @@
-Retrieve It - Decentralized Lost and Found Platform
+#Retrieve It - Decentralized Lost and Found Platform
 
 Welcome to Retrieve It, a decentralized platform built to solve the problem of lost and found items. Users can register and search for their lost items, while finders who return items to the rightful owner are rewarded with cryptocurrency, such as Bitcoin or Ethereum, after completing certain milestones. This project was created during the Code4Cause Hackathon @NSUT Delhi.
 
