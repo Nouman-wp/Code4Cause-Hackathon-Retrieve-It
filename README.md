@@ -2,6 +2,7 @@
 
 Welcome to Retrieve It, a decentralized platform built to solve the problem of lost and found items. Users can register and search for their lost items, while finders who return items to the rightful owner are rewarded with cryptocurrency, such as Bitcoin or Ethereum, after completing certain milestones. This project was created during the Code4Cause Hackathon @NSUT Delhi.
 
+
 Setup Guide
 Follow these steps to set up and explore the Retrieve It project:
 
@@ -22,6 +23,7 @@ To start exploring, simply open the index.html file in any browser (e.g., Chrome
 
 Step 5: Explore and Enjoy
 Now, explore the platform and Enjoy your experience with Retrieve It!
+
 
 
 #Contributing
